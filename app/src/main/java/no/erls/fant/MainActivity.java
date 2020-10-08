@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Navigation.findNavController(a, R.id.nav_host_fragment)
-                        .navigate(R.id.action_navToAddItem);
+                        .navigate(R.id.action_homeFragment_to_addItemFragment);
             }
         });
 
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_login, R.id.nav_create, R.id.nav_additem, R.id.nav_buyitem) //lrgg til ting her
+                R.id.homeFragment, R.id.fragmentLogin, R.id.nav_create, R.id.addItemFragment, R.id.nav_buyitem) //lrgg til ting her
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -57,20 +57,20 @@ public class MainActivity extends AppCompatActivity {
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
                 int menuId = destination.getId();
                 switch(menuId) {
-                    case R.id.nav_login:
-                        Toast.makeText(MainActivity.this, "Logg inn", Toast.LENGTH_LONG).show();
+                    case R.id.fragmentLogin:
+                        Toast.makeText(MainActivity.this, "Log inn", Toast.LENGTH_LONG).show();
                         fab.hide();
                         break;
                     case R.id.nav_create:
-                        Toast.makeText(MainActivity.this, "Registrering", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Register", Toast.LENGTH_LONG).show();
                         fab.hide();
                         break;
-                    case R.id.nav_additem:
-                        Toast.makeText(MainActivity.this, "Legge ut", Toast.LENGTH_LONG).show();
+                    case R.id.addItemFragment:
+                        Toast.makeText(MainActivity.this, "Add", Toast.LENGTH_LONG).show();
                         fab.hide();
                         break;
                     case R.id.nav_buyitem:
-                        Toast.makeText(MainActivity.this, "Kjøp", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Buy", Toast.LENGTH_LONG).show();
                         fab.hide();
                         break;
                     default:

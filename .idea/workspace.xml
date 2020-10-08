@@ -5,73 +5,37 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0c773a-20a0-48ec-a087-b636a3481a77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_4_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/CurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/ItemImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/ItemList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/ItemsCurrentlyListed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/network/FantAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/network/FantAPI2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/network/RequestGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/FragmentLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/home/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/market/MarketFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/market/MarketItemsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_menu_camera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_menu_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_menu_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/side_nav_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/AddItemFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/market/MarketViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/FantService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/network/URLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/itemuser/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/data/LoginDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/data/LoginRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/data/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/data/model/LoggedInUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoggedInUserView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoginFormState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoginResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoginViewModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/login/LoginViewModelFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/market/MarketFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/no/erls/fant/ui/market/MarketFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,30 +220,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="860" y="455" key="AndroidCreateResourceFileDialog/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602166775654" />
-    <state x="1138" y="513" key="AndroidCreateXmlResourceDialog" timestamp="1602170152941">
+    <state x="1138" y="513" key="AndroidCreateXmlResourceDialog" timestamp="1602172929201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1138" y="513" key="AndroidCreateXmlResourceDialog/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602170152941" />
+    <state x="1138" y="513" key="AndroidCreateXmlResourceDialog/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602172929201" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1602168357286">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602168357286" />
-    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1602162003855">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1602177316210">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602162003855" />
-    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1602162003855">
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602177316210" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1602177316209">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602162003855" />
-    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1602162003855">
+    <state width="2517" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602177316209" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1602177316209">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602162003855" />
-    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1602162003855">
+    <state width="2517" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602177316209" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1602177316209">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602162003855" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/2560.189.1740.1040@0.0.2560.1400" timestamp="1602177316209" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1600777172880">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

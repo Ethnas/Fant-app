@@ -20,10 +20,12 @@ import android.widget.SearchView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import no.erls.fant.R;
+import no.erls.fant.ui.market.MarketItemsAdapter;
 
 
 public class HomeFragment extends Fragment {
     private RecyclerView rv;
+    private MarketItemsAdapter adapter = new MarketItemsAdapter();
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         FloatingActionButton fab = container.getRootView().findViewById(R.id.fab); fab.show();
@@ -31,6 +33,7 @@ public class HomeFragment extends Fragment {
         rv = root.findViewById(R.id.items);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this.getContext()));
+        rv.setAdapter(adapter);
         return root;
     }
 
